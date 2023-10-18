@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+body {
+    font-family: monospace;
+    line-height: 3em;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+span.pink-bg {
+    background-color: palevioletred;
+    padding: 5px;
+    font-size: 2em;
+    color: lightpink;
+}
+
+span.yellow-bg {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    font-size: 1.2em;
+}
+span.font {
+    font-family: kablammo;
+    font-size: 2em;
+    color: lavender;
+}
+span.green-bg{
+    background-color: lightgreen;
+    padding: 5px;
+    font-size: 2.5em;
+}
+
+@keyframes slideinleft {
+    from{
+      transform: translateX(-300px);
+    }
+    
+    to{
+      transform: translateX(0);
+      
+    }
+  }
+  
+  .HEADING-1{
+      animation-name: slideinleft;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: both;
+  
+      transform: translateX(-150px);
+      color: lightgoldenrodyellow;
+      font-family: kablammo;
+  
+  
+  
+  }
